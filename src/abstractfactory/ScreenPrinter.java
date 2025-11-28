@@ -1,6 +1,7 @@
-package Factory.AbstractFactory;
+package abstractfactory;
 
-public class ScreenPrinter implements Printer{
+public class ScreenPrinter implements Printer {
+
     @Override
     public void print() {
         System.out.println("screen");

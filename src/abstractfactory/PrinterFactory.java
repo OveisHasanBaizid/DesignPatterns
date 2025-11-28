@@ -1,6 +1,7 @@
-package Factory.AbstractFactory;
+package abstractfactory;
 
 public class PrinterFactory extends AbstractFactory {
+
     @Override
     public Shape getShape(String shapeType) {
         return null;
@@ -8,8 +9,6 @@ public class PrinterFactory extends AbstractFactory {
 
     @Override
     Printer getPrinter(String type) {
-        if (type == null)
-            return null;
         return switch (type) {
             case "PAPER" -> new PaperPrinter();
             case "WEB" -> new WebPrinter();

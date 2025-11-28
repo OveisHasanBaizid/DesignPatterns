@@ -1,11 +1,12 @@
-package Factory.FactoryMethod;
+package factorymethod;
 
-public class Clothing implements Product{
+public class Book implements Product {
+
     private String name;
     private int price;
     private String description;
 
-    public Clothing(String name, int price, String description) {
+    public Book(String name, int price, String description) {
         this.name = name;
         this.price = price;
         this.description = description;

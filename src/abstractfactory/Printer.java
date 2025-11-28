@@ -1,5 +1,6 @@
-package Factory.AbstractFactory;
+package abstractfactory;
 
 public interface Printer {
+
     void print();
 }
