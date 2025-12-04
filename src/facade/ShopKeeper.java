@@ -1,6 +1,7 @@
-package Facade;
+package facade;
 
 public class ShopKeeper {
+
     private final MobileShop iphone;
     private final MobileShop samsung;
     private final MobileShop blackberry;
