@@ -1,6 +1,7 @@
-package ChainOfResponsibility;
+package chainofresponsibility;
 
 public class ErrorBasedLogger extends Logger {
+
     public ErrorBasedLogger(int levels) {
         this.levels = levels;
     }

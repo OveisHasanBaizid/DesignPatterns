@@ -1,9 +1,10 @@
-package ChainOfResponsibility;
+package chainofresponsibility;
 
 public abstract class Logger {
-    public static int OUTPUT_INFO = 1;
-    public static int ERROR_INFO = 2;
-    public static int DEBUG_INFO = 3;
+
+    public static final int OUTPUT_INFO = 1;
+    public static final int ERROR_INFO = 2;
+    public static final int DEBUG_INFO = 3;
     protected int levels;
     protected Logger nextLevelLogger;
 

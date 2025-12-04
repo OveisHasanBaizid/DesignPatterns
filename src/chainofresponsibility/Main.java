@@ -1,6 +1,7 @@
-package ChainOfResponsibility;
+package chainofresponsibility;
 
 public class Main {
+
     private static Logger doChaining() {
         Logger consoleLogger = new ConsoleBasedLogger(Logger.OUTPUT_INFO);
 
@@ -13,7 +14,7 @@ public class Main {
         return consoleLogger;
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Logger chainLogger = doChaining();
 
         chainLogger.logMessage(Logger.OUTPUT_INFO, "Enter the sequence of values ");

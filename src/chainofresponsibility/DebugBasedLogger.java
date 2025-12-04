@@ -1,6 +1,7 @@
-package ChainOfResponsibility;
+package chainofresponsibility;
 
 public class DebugBasedLogger extends Logger {
+
     public DebugBasedLogger(int levels) {
         this.levels = levels;
     }
