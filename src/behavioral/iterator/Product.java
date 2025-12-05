@@ -1,6 +1,7 @@
-package behavioral.Iterator;
+package behavioral.iterator;
 
 public class Product {
+
     private final int id;
     private final String name;
 

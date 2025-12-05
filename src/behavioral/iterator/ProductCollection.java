@@ -1,9 +1,10 @@
-package behavioral.Iterator;
+package behavioral.iterator;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ProductCollection {
+
     private final List<Product> products = new ArrayList<>();
 
     public void add(Product product) {
@@ -15,6 +16,7 @@ public class ProductCollection {
     }
 
     private static class ListIterator implements Iterator {
+
         private final ProductCollection collection;
         private int index;
 
