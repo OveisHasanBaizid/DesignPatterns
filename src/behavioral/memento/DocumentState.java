@@ -1,6 +1,7 @@
-package behavioral.Memento;
+package behavioral.memento;
 
 public class DocumentState {
+
     private final String content;
     private final String fontName;
     private final int fontSize;

@@ -1,6 +1,7 @@
-package behavioral.Memento;
+package behavioral.memento;
 
 public class Main {
+
     public static void main(String[] args) {
         Document document = new Document("Initial content", "Arial", 12);
 
@@ -14,7 +15,7 @@ public class Main {
 
         history.saveMemento(document.createDocumentState());
 
-        document.restoreFromDocumentState(history.getMemento(0) , "fontSize");
+        document.restoreFromDocumentState(history.getMemento(0), "fontSize");
 
         System.out.println(document);
     }
